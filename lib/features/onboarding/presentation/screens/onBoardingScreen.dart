@@ -207,7 +207,7 @@ class OnBoardingState extends State<OnBoardingScreen>
   }
 
   Future<void> _goToLogin() async {
-    // await _rippleAnimationController.forward();
+    await _rippleAnimationController.forward();
     // di
     //     .sl<CacheHelper>()
     //     .saveData(key: AppStrings.isBoarding, value: AppStrings.isBoarding);
